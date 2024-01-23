@@ -28,7 +28,6 @@ body {
 }
 
 .App {
-  /* padding: 10rem; */
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
@@ -37,6 +36,7 @@ body {
 .app--header {
   margin: 5rem 0;
   font-size: 4rem;
+  color: #000000;
 }
 
 .app-container {
@@ -52,11 +52,10 @@ body {
 .input-form {
   display: flex;
   flex-direction: column;
-  background-color: #e67e22;
-  /* box-shadow: 5rem 4.8rem 4.8rem rgba(0, 0, 0, 0.075); */
+  background-color: #ffc627;
   box-shadow: 10px 5px 5px black;
   border-radius: 11px;
-  background-image: linear-gradient(to right, #eb984e, #e67e22);
+  background-image: linear-gradient(to right, #edc045, #ffc627);
   overflow: hidden;
   padding: 2.4rem 3.2rem 3.2rem 3.2rem;
 }
@@ -69,12 +68,11 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: bold;
-  margin-bottom: 1.2rem;
-  color: #45260a;
+  margin-bottom: 0.5rem;
+  color: #000000;
 }
 
 .input-form input {
-  /* width: 100%; */
   padding: 1.2rem;
   font-size: 1.8rem;
   font-family: inherit;
@@ -91,15 +89,14 @@ body {
 }
 
 .btn--form {
-  background-color: #45260a;
+  background-color: #8c1d40;
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
 }
 
 .btn--form:hover {
-  background-color: white;
-  color: #555;
+  background-color: #d23153;
 }
 
 .btn,
@@ -114,8 +111,6 @@ body {
   border: none;
   cursor: pointer;
   font-family: inherit;
-  /* transition: all 1s; */
-  /* transition: background-color 0.3s; */
   transition: all 0.3s;
 }
 
